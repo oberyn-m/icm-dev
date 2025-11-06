@@ -10,8 +10,7 @@ export interface Project {
   description: string;
   image: string;
   tags: string[];
-  github?: string;
-  demo?: string;
+  github: string;
 }
 
 export interface ContactInfo {
